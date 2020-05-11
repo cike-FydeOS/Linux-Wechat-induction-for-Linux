@@ -67,7 +67,7 @@ brew cask install electronic-wechat
 # Electronic wechat (Linux version wechat < 1 > description English)
 <img src="assets/icon.png" alt="logo" height="120" align="right" />
 
-**Note: * * the following contents are from the original website https://github.com/geeeeeeeeek/electronic-wechat
+**Note:** the following contents are from the original website https://github.com/geeeeeeeeek/electronic-wechat
 
 # Electronic WeChat
 
