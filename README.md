@@ -3,8 +3,8 @@
 Currently, it is being sorted out. The update may be a little slow. If you want to maintain or submit your own works, you can add your own works or maintain them here.
 <img src="assets/icon.png" alt="logo" height="120" align="right" />
 
-# Electronic WeChat(linux 版微信<1>说明)
-
+# Electronic WeChat(linux 版微信<1>说明中文)
+**注：**以下内容均来自原网站https://github.com/geeeeeeeeek/electronic-wechat
 
 [![Gitter](https://badges.gitter.im/geeeeeeeeek/electronic-wechat.svg)](https://gitter.im/geeeeeeeeek/electronic-wechat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)  [![Build Status](https://travis-ci.org/geeeeeeeeek/electronic-wechat.svg?branch=master)](https://travis-ci.org/geeeeeeeeek/electronic-wechat)  [English](README.md)
 
