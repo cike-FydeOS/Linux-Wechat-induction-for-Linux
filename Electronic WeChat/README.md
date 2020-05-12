@@ -2,6 +2,8 @@
 
 # Electronic WeChat
 
+[chinese中文](README_zh.md)
+
 *A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
 
 > **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️** 
