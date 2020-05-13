@@ -1,74 +1,74 @@
-# DoChat /d¨»¨»?t??t/ ºĞ×°Î¢ĞÅ
+# DoChat /dÉ‘É‘?t??t/ ç›’è£…å¾®ä¿¡
 
 [![Docker](https://github.com/huan/docker-wechat/workflows/Docker/badge.svg)](https://github.com/huan/docker-wechat/actions?query=workflow%3ADocker)
 [![Powered By Wine](https://img.shields.io/badge/Powered%20By-Wine-red)](https://www.winehq.org/)
 
 [![dockeri.co](https://dockeri.co/image/zixia/wechat)](https://hub.docker.com/r/zixia/wechat/tags)
 
-DoChat£¨ºĞ×°Î¢ĞÅ£©ÊÇÒ»¿îÓÃÓÚLinuxµÄÎ¢ĞÅPC Windows¿Í»§¶Ë¡£
+DoChatï¼ˆç›’è£…å¾®ä¿¡ï¼‰æ˜¯ä¸€æ¬¾ç”¨äºLinuxçš„å¾®ä¿¡PC Windowså®¢æˆ·ç«¯ã€‚
 
 ![DoChat](https://huan.github.io/docker-wechat/images/dochat.png)
 
-> Í¼Æ¬À´Ô´: [Docker 101](https://www.docker.com/blog/docker-101-introduction-docker-webinar-recap/) + [Icon Finder](https://www.iconfinder.com/icons/4539886/application_chat_communication_wechat_wechat_logo_icon), Ps-ed by Ruoxin Song
+> å›¾ç‰‡æ¥æº: [Docker 101](https://www.docker.com/blog/docker-101-introduction-docker-webinar-recap/) + [Icon Finder](https://www.iconfinder.com/icons/4539886/application_chat_communication_wechat_wechat_logo_icon), Ps-ed by Ruoxin Song
 
-## ÈÙÓş
+## è£èª‰
 
-- [ÍÆÎÄ](https://twitter.com/newsycombinator/status/1231489594765594625) by Y Combinator [Hacker News](https://news.ycombinator.com/item?id=22395507)
-- [±êÌâ](https://huan.github.io/docker-wechat/images/oschina-feb-25-2020.png) by [OS China](https://www.oschina.net/)
+- [æ¨æ–‡](https://twitter.com/newsycombinator/status/1231489594765594625) by Y Combinator [Hacker News](https://news.ycombinator.com/item?id=22395507)
+- [æ ‡é¢˜](https://huan.github.io/docker-wechat/images/oschina-feb-25-2020.png) by [OS China](https://www.oschina.net/)
 
-## ÃâÔğÉùÃ÷
+## å…è´£å£°æ˜
 
-ÎÒÃÇÒÑ¾­ÊÕµ½ÓÃ»§±¨¸æ£¬ËûÃÇµÄÎ¢ĞÅÕËºÅÔÚÊ¹ÓÃ±¾ÏîÄ¿ºóÒÑ±»½ûÓÃ£¬Òò´ËÇë×ÔĞĞ³Ğµ£Ê¹ÓÃ·çÏÕ£º
+æˆ‘ä»¬å·²ç»æ”¶åˆ°ç”¨æˆ·æŠ¥å‘Šï¼Œä»–ä»¬çš„å¾®ä¿¡è´¦å·åœ¨ä½¿ç”¨æœ¬é¡¹ç›®åå·²è¢«ç¦ç”¨ï¼Œå› æ­¤è¯·è‡ªè¡Œæ‰¿æ‹…ä½¿ç”¨é£é™©ï¼š
 
-1. [×òÌìÓÃÁËÒ»ÏÂ×îĞÂ°æµÄdocker¾µÏñÁ¢ÂíÎ¢ĞÅ¾Í±»·âÁË #55](https://github.com/huan/docker-wechat/issues/55)
+1. [æ˜¨å¤©ç”¨äº†ä¸€ä¸‹æœ€æ–°ç‰ˆçš„dockeré•œåƒç«‹é©¬å¾®ä¿¡å°±è¢«å°äº† #55](https://github.com/huan/docker-wechat/issues/55)
 
-## ÓÃ·¨ ![Powered Linux](https://img.shields.io/badge/WeChat-Linux-brightgreen)
+## ç”¨æ³• ![Powered Linux](https://img.shields.io/badge/WeChat-Linux-brightgreen)
 
-Î¢ĞÅPC½«Í¨¹ıÔËĞĞÒÔÏÂÃüÁîÔÚLinux×ÀÃæÉÏÆô¶¯
+å¾®ä¿¡PCå°†é€šè¿‡è¿è¡Œä»¥ä¸‹å‘½ä»¤åœ¨Linuxæ¡Œé¢ä¸Šå¯åŠ¨
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh | bash
 ```
 
-Ö»Ğè½«ÉÏÃæµÄÒ»ĞĞÃüÁî¸´ÖÆ/Õ³Ìùµ½ÖÕ¶Ë£¬È»ºó°´»Ø³µ¼ü¡£ÄÇÃ´Î¢ĞÅPCºÜ¿ì¾Í»á³öÏÖÔÚÄãµÄXWindows×ÀÃæÉÏ¡£
+åªéœ€å°†ä¸Šé¢çš„ä¸€è¡Œå‘½ä»¤å¤åˆ¶/ç²˜è´´åˆ°ç»ˆç«¯ï¼Œç„¶åæŒ‰å›è½¦é”®ã€‚é‚£ä¹ˆå¾®ä¿¡PCå¾ˆå¿«å°±ä¼šå‡ºç°åœ¨ä½ çš„XWindowsæ¡Œé¢ä¸Šã€‚
 
-![DoChat ÖÕ¶ËÃüÁî](https://huan.github.io/docker-wechat/images/term-dochat.png)
+![DoChat ç»ˆç«¯å‘½ä»¤](https://huan.github.io/docker-wechat/images/term-dochat.png)
 
-## ÌØµã
+## ç‰¹ç‚¹
 
-ËüÖ»ĞèÒªÒ»ĞĞshellÃüÁî¾Í¿ÉÒÔ¿ªÏä¼´ÓÃ£¡
+å®ƒåªéœ€è¦ä¸€è¡Œshellå‘½ä»¤å°±å¯ä»¥å¼€ç®±å³ç”¨ï¼
 
-1. ÍêÃÀµØÊäÈë/ÏÔÊ¾ºº×Ö¡£
-1. Ê¹ÓÃ¡°Ctrl+V¡±½«¸´ÖÆµÄÍ¼ÏñÕ³Ìùµ½Î¢ĞÅ`
+1. å®Œç¾åœ°è¾“å…¥/æ˜¾ç¤ºæ±‰å­—ã€‚
+1. ä½¿ç”¨â€œCtrl+Vâ€å°†å¤åˆ¶çš„å›¾åƒç²˜è´´åˆ°å¾®ä¿¡`
 
-![DoChat ½ØÍ¼](https://huan.github.io/docker-wechat/images/screenshot-dochat.png)
+![DoChat æˆªå›¾](https://huan.github.io/docker-wechat/images/screenshot-dochat.png)
 
-## ÒªÇó
+## è¦æ±‚
 
-1. ½¨ÒéÊ¹ÓÃLinux Ubuntu·¢ĞĞ°æ£¨DoChatÊÇÓÃUbuntuDesktop19.10¿ª·¢µÄ£©
-    1. DebianÖ§³ÖÈ·ÈÏ ([#9](https://github.com/huan/docker-wechat/issues/9))
-    1. OpenSUSEÖ§³ÖÈ·ÈÏ ([#16](https://github.com/huan/docker-wechat/issues/16))
-    1. ÒÑÈ·ÈÏ¼Ü¹¹Ö§³Ö ([#26](https://github.com/huan/docker-wechat/issues/26))
-    1. Ubuntu(19.04/18.10/18.04) Ó¦¸ÃÄÜ¹»Ö§³Ö
-    1. ÆäËûLinux·¢ĞĞ°æ£º¿ÉÄÜÖ§³Ö
-1. Docker (ÔËĞĞ `sudo apt update && apt install docker.io` ÎªUbuntuÓÃ»§°²×°Docker)
+1. å»ºè®®ä½¿ç”¨Linux Ubuntuå‘è¡Œç‰ˆï¼ˆDoChatæ˜¯ç”¨UbuntuDesktop19.10å¼€å‘çš„ï¼‰
+    1. Debianæ”¯æŒç¡®è®¤ ([#9](https://github.com/huan/docker-wechat/issues/9))
+    1. OpenSUSEæ”¯æŒç¡®è®¤ ([#16](https://github.com/huan/docker-wechat/issues/16))
+    1. å·²ç¡®è®¤æ¶æ„æ”¯æŒ ([#26](https://github.com/huan/docker-wechat/issues/26))
+    1. Ubuntu(19.04/18.10/18.04) åº”è¯¥èƒ½å¤Ÿæ”¯æŒ
+    1. å…¶ä»–Linuxå‘è¡Œç‰ˆï¼šå¯èƒ½æ”¯æŒ
+1. Docker (è¿è¡Œ `sudo apt update && apt install docker.io` ä¸ºUbuntuç”¨æˆ·å®‰è£…Docker)
 
-## »·¾³±äÁ¿
+## ç¯å¢ƒå˜é‡
 
 ### `DOCHAT_DPI`
 
-Í¼ĞÎÆÁÄ»·Ö±æÂÊµÄDPI±ÈÀı¡£
+å›¾å½¢å±å¹•åˆ†è¾¨ç‡çš„DPIæ¯”ä¾‹ã€‚
 
-| DPI  | ±ÈÀı |
+| DPI  | æ¯”ä¾‹ |
 | ---: | :---: |
 |  96 | 100% |
 | 120 | 125% |
 | 144 | 150% |
 | 192 | 200% |
 
-Ä¬ÈÏÖµ: `120`
+é»˜è®¤å€¼: `120`
 
-Òª·Å´ó´°¿Ú×ÖÌå´óĞ¡£¬ÇëÖ´ĞĞÒÔÏÂ²Ù×÷:
+è¦æ”¾å¤§çª—å£å­—ä½“å¤§å°ï¼Œè¯·æ‰§è¡Œä»¥ä¸‹æ“ä½œ:
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
@@ -77,44 +77,44 @@ curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
 
 ### `DOCHAT_SKIP_PULL`
 
-Èç¹ûÃ¿´ÎÆô¶¯Ê±¶¼²»ÏëÎª×îĞÂ°æ±¾ÌáÈ¡dockerÍ¼Ïñ£¬¿ÉÒÔÉèÖÃ `DOCHAT_SKIP_PULL` »·¾³±äÁ¿.
+å¦‚æœæ¯æ¬¡å¯åŠ¨æ—¶éƒ½ä¸æƒ³ä¸ºæœ€æ–°ç‰ˆæœ¬æå–dockerå›¾åƒï¼Œå¯ä»¥è®¾ç½® `DOCHAT_SKIP_PULL` ç¯å¢ƒå˜é‡.
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
   | DOCHAT_SKIP_PULL=true bash
 ```
 
-Èç¹ûÄãÏÂÔØÁË `dochat.sh`:
+å¦‚æœä½ ä¸‹è½½äº† `dochat.sh`:
 
 ```sh
 DOCHAT_SKIP_PULL=true ./dochat.sh
 ```
 
-### `DOCHAT_µ÷ÊÔ`
+### `DOCHAT_è°ƒè¯•`
 
-ÏÔÊ¾¸ü¶àµ÷ÊÔÈÕÖ¾ÏûÏ¢.
+æ˜¾ç¤ºæ›´å¤šè°ƒè¯•æ—¥å¿—æ¶ˆæ¯.
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
   | DOCHAT_DEBUG=true bash
 ```
 
-### `DOCHAT_Î¢ĞÅ°æ±¾`
+### `DOCHAT_å¾®ä¿¡ç‰ˆæœ¬`
 
-Ê¹ÓÃÎ¢ĞÅµÄÌØ¶¨°æ±¾.
+ä½¿ç”¨å¾®ä¿¡çš„ç‰¹å®šç‰ˆæœ¬.
 
-Äú¿ÉÒÔÔÚ <https://hub.docker.com/r/zixia/wechat/tags>
+æ‚¨å¯ä»¥åœ¨ <https://hub.docker.com/r/zixia/wechat/tags>
 
-ÀıÈç:
+ä¾‹å¦‚:
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
   | DOCHAT_WECHAT_VERSION=2.7.1.85 bash
 ```
 
-## ¶ÔÓÚ³ÌĞòÔ±À´Ëµ
+## å¯¹äºç¨‹åºå‘˜æ¥è¯´
 
-Èç¹ûÄãÏë×Ô¼º¿ØÖÆÒ»ÇĞ£¬±ÈÈçÔÚ×ÀÃæÉÏ´ò¿ª¶à¸öÎ¢ĞÅPC¿Í»§¶Ë£»ÄÇÃ´£¬Äã¿ÉÄÜÏë²é¿´ÎÒÃÇ´æ´¢¿âÖĞµÄ [dochat.sh](https://github.com/huan/docker-wechat/blob/master/dochat.sh) ²¢³¢ÊÔÒÔÏÂdockerÃüÁî:
+å¦‚æœä½ æƒ³è‡ªå·±æ§åˆ¶ä¸€åˆ‡ï¼Œæ¯”å¦‚åœ¨æ¡Œé¢ä¸Šæ‰“å¼€å¤šä¸ªå¾®ä¿¡PCå®¢æˆ·ç«¯ï¼›é‚£ä¹ˆï¼Œä½ å¯èƒ½æƒ³æŸ¥çœ‹æˆ‘ä»¬å­˜å‚¨åº“ä¸­çš„ [dochat.sh](https://github.com/huan/docker-wechat/blob/master/dochat.sh) å¹¶å°è¯•ä»¥ä¸‹dockerå‘½ä»¤:
 
 ```sh
 docker run \
@@ -140,55 +140,55 @@ docker run \
   zixia/wechat
 ```
 
-¸ù¾İÄãµÄĞèÒªĞŞ¸ÄËü.
+æ ¹æ®ä½ çš„éœ€è¦ä¿®æ”¹å®ƒ.
 
-## °æ±¾¿ØÖÆ
+## ç‰ˆæœ¬æ§åˆ¶
 
-dockerÓ³ÏñÓĞÁ½¸ö°æ±¾¿ØÖÆÄ£Ê½:
+dockeræ˜ åƒæœ‰ä¸¤ä¸ªç‰ˆæœ¬æ§åˆ¶æ¨¡å¼:
 
 1. `X.Y.Z.a`: This is for the WeChat PC Windows Client version
     1. `zixia/wechat:2.7.1.85`: WeChat 2.7.1.85
     1. `zixia/wechat:2.8.0.112`: WeChat 2.8.0.112
-1. `x.y`: ÕâÊÇdocker¾µÏñ°æ±¾µÄ¡£.
+1. `x.y`: è¿™æ˜¯dockeré•œåƒç‰ˆæœ¬çš„ã€‚.
     1. `zixia/wechat:0.2`: docker-wechat version 0.2
 
-Á½¸ö°æ±¾µÄÄ£Ê½¿ÉÄÜÏà»¥ÖØµş
+ä¸¤ä¸ªç‰ˆæœ¬çš„æ¨¡å¼å¯èƒ½ç›¸äº’é‡å 
 
-ÀıÈç: the `zixia/wechat:0.2` ¿ÉÄÜÓë `zixia/wechat:2.8.0.112` µÄÍ¼ÏñÏàÍ¬.
+ä¾‹å¦‚: the `zixia/wechat:0.2` å¯èƒ½ä¸ `zixia/wechat:2.8.0.112` çš„å›¾åƒç›¸åŒ.
 
-## ÒÑÖªÎÊÌâ
+## å·²çŸ¥é—®é¢˜
 
-- [ ] Î¢ĞÅ2.8.0.x²»ÄÜ·¢ËÍ´óÍ¼Æ¬/ÎÄ¼ş ([#341](https://github.com/huan/docker-wechat/issues/31))
-  - ½â¾ö·½·¨: ¸ÄÓÃ [2.7.1.85](https://hub.docker.com/layers/zixia/wechat/2.7.1.85/images/sha256-e6e9d21c7cd1dfae0484e697f12f5f3c401de2f02e771d061868740e0d26549d) instead. (`DOCHAT_WECHAT_VERSION=2.7.1.85`)
-- [ ] ÔÚÎ¢ĞÅä¯ÀÀÆ÷ÖĞ²»Æğ×÷ÓÃ ([#2](https://github.com/huan/docker-wechat/issues/2))
+- [ ] å¾®ä¿¡2.8.0.xä¸èƒ½å‘é€å¤§å›¾ç‰‡/æ–‡ä»¶ ([#341](https://github.com/huan/docker-wechat/issues/31))
+  - è§£å†³æ–¹æ³•: æ”¹ç”¨ [2.7.1.85](https://hub.docker.com/layers/zixia/wechat/2.7.1.85/images/sha256-e6e9d21c7cd1dfae0484e697f12f5f3c401de2f02e771d061868740e0d26549d) instead. (`DOCHAT_WECHAT_VERSION=2.7.1.85`)
+- [ ] åœ¨å¾®ä¿¡æµè§ˆå™¨ä¸­ä¸èµ·ä½œç”¨ ([#2](https://github.com/huan/docker-wechat/issues/2))
 
-## ´ı°ìÊÂÏîÁĞ±í
+## å¾…åŠäº‹é¡¹åˆ—è¡¨
 
-- [x] Î¢ĞÅPCµÇÂ¼Êı¾İĞÅÏ¢ÓÀ¾Ã´æ´¢ ([#3](https://github.com/huan/docker-wechat/issues/3))
-- [ ] Éú³ÉDockerfileÊ±£¬×Ô¶¯´Ó.exe°²×°³ÌĞò°²×°Î¢ĞÅPC (¿ÉÄÜĞèÒª²âÊÔ×Ô¶¯»¯¹¤¾ß)
-- [ ] ¼à¿ØÎ¢ĞÅPC°æ³ö°æÎï£¬ÒÔ±ãÎÒÃÇ¿ÉÒÔ·¢²¼ÓëdockerÍ¼ÏñÏàÍ¬µÄ°æ±¾ºÅ.
+- [x] å¾®ä¿¡PCç™»å½•æ•°æ®ä¿¡æ¯æ°¸ä¹…å­˜å‚¨ ([#3](https://github.com/huan/docker-wechat/issues/3))
+- [ ] ç”ŸæˆDockerfileæ—¶ï¼Œè‡ªåŠ¨ä».exeå®‰è£…ç¨‹åºå®‰è£…å¾®ä¿¡PC (å¯èƒ½éœ€è¦æµ‹è¯•è‡ªåŠ¨åŒ–å·¥å…·)
+- [ ] ç›‘æ§å¾®ä¿¡PCç‰ˆå‡ºç‰ˆç‰©ï¼Œä»¥ä¾¿æˆ‘ä»¬å¯ä»¥å‘å¸ƒä¸dockerå›¾åƒç›¸åŒçš„ç‰ˆæœ¬å·.
 
 ## FAQ
 
-### ´øÓĞGnome×ÀÃæµÄÏµÍ³ÍĞÅÌÍ¼±ê
+### å¸¦æœ‰Gnomeæ¡Œé¢çš„ç³»ç»Ÿæ‰˜ç›˜å›¾æ ‡
 
-°²×° Gnome À©Õ¹: [Top Icons Plus Git](https://extensions.gnome.org/extension/2311/topicons-plus/) by bijignome
+å®‰è£… Gnome æ‰©å±•: [Top Icons Plus Git](https://extensions.gnome.org/extension/2311/topicons-plus/) by bijignome
 
-> Note 1: ¼¸ºõÓĞÁù¸ö¡°TopIcons¡±À©Õ¹Ãû·Ç³£ÏàËÆ£ºTopIcons¡¢TopIcons Redux¡¢TopIcons Plus¡¢**TopIcons Plus Git**¡¢TopIconsFix¡£Ê¹ÓÃ**TopIcons Plus Git**£¬ËüÊÇÕıÈ·µÄ¡£  
+> Note 1: å‡ ä¹æœ‰å…­ä¸ªâ€œTopIconsâ€æ‰©å±•åéå¸¸ç›¸ä¼¼ï¼šTopIconsã€TopIcons Reduxã€TopIcons Plusã€**TopIcons Plus Git**ã€TopIconsFixã€‚ä½¿ç”¨**TopIcons Plus Git**ï¼Œå®ƒæ˜¯æ­£ç¡®çš„ã€‚  
 >
-> Note 2: ¡°TopIcons Plus¡±ÓĞÒ»¸öbug£¬µ¼ÖÂ¡°wine¡±±¾ÉíÔÚ×ÀÃæÉÏÏÔÊ¾Ò»¸ö´°¿Ú¡£ ([#19](https://github.com/huan/docker-wechat/issues/19))
+> Note 2: â€œTopIcons Plusâ€æœ‰ä¸€ä¸ªbugï¼Œå¯¼è‡´â€œwineâ€æœ¬èº«åœ¨æ¡Œé¢ä¸Šæ˜¾ç¤ºä¸€ä¸ªçª—å£ã€‚ ([#19](https://github.com/huan/docker-wechat/issues/19))
 
-### ÔÚopenSUSE LeapÉÏÊ¹ÓÃ´úÂë5ÍË³ö
+### åœ¨openSUSE Leapä¸Šä½¿ç”¨ä»£ç 5é€€å‡º
 
-µ±ÄúÔÚopenSUSE LeapÉÏÓöµ½´úÂëÎª5µÄÓ¦ÓÃ³ÌĞòÍË³öµÄÎÊÌâÊ±£¬ÄúĞèÒª½ûÓÃX·şÎñÆ÷·ÃÎÊ¿ØÖÆÒÔÔÊĞíÈÎºÎÓÃ»§ÔÚÆô¶¯Ó¦ÓÃ³ÌĞòÖ®Ç°Á¬½Óµ½X·şÎñÆ÷¡£Ê¹ÓÃÒÔÏÂÃüÁî½«Æä½ûÓÃ:  
+å½“æ‚¨åœ¨openSUSE Leapä¸Šé‡åˆ°ä»£ç ä¸º5çš„åº”ç”¨ç¨‹åºé€€å‡ºçš„é—®é¢˜æ—¶ï¼Œæ‚¨éœ€è¦ç¦ç”¨XæœåŠ¡å™¨è®¿é—®æ§åˆ¶ä»¥å…è®¸ä»»ä½•ç”¨æˆ·åœ¨å¯åŠ¨åº”ç”¨ç¨‹åºä¹‹å‰è¿æ¥åˆ°XæœåŠ¡å™¨ã€‚ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤å°†å…¶ç¦ç”¨:  
 
 `$ xhost +`
 
-### Æô¶¯2¸ö»ò¸ü¶à¼àÊÓÆ÷ÉèÖÃºóÃ»ÓĞÖ÷´°¿Ú
+### å¯åŠ¨2ä¸ªæˆ–æ›´å¤šç›‘è§†å™¨è®¾ç½®åæ²¡æœ‰ä¸»çª—å£
 
-Õâ¿ÉÄÜÊÇÓÉÓÚ' wine 'ÖĞÓĞÒ»¸ö¾ÉµÄÈ±ÏİºÍ¶à¸ö¼àÊÓÆ÷ÉèÖÃÔì³ÉµÄ¡£½â¾ö·½·¨ÊÇÊ¹ÓÃµ¥¸ö¼àÊÓÆ÷Æô¶¯Ëü£¬È»ºóÇĞ»»µ½¶à¸ö¼àÊÓÆ÷
+è¿™å¯èƒ½æ˜¯ç”±äº' wine 'ä¸­æœ‰ä¸€ä¸ªæ—§çš„ç¼ºé™·å’Œå¤šä¸ªç›‘è§†å™¨è®¾ç½®é€ æˆçš„ã€‚è§£å†³æ–¹æ³•æ˜¯ä½¿ç”¨å•ä¸ªç›‘è§†å™¨å¯åŠ¨å®ƒï¼Œç„¶ååˆ‡æ¢åˆ°å¤šä¸ªç›‘è§†å™¨
 
-´ËĞĞÎª¿ÉÄÜ»áµ¼ÖÂÔÚÊ¹ÓÃÁ¬½ÓÏÔÊ¾Ä£Ê½Ê±ÊÓÍ¼ÏûÊ§£¬Òò´ËĞèÒªÔÚÓ¦ÓÃ³ÌĞòÆô¶¯Ê±½«Ä£Ê½¸ü¸ÄÎª¾µÏñ£¬´Ë½Å±¾¿ÉÄÜÓĞ°ïÖú:
+æ­¤è¡Œä¸ºå¯èƒ½ä¼šå¯¼è‡´åœ¨ä½¿ç”¨è¿æ¥æ˜¾ç¤ºæ¨¡å¼æ—¶è§†å›¾æ¶ˆå¤±ï¼Œå› æ­¤éœ€è¦åœ¨åº”ç”¨ç¨‹åºå¯åŠ¨æ—¶å°†æ¨¡å¼æ›´æ”¹ä¸ºé•œåƒï¼Œæ­¤è„šæœ¬å¯èƒ½æœ‰å¸®åŠ©:
 
 ```Bash
 #bin/bash
@@ -201,80 +201,80 @@ sleep 5
 xrandr --output HDMI-1-2 --right-of eDP-1-1
 ```
 
-½«HDMI-1-2¸ü¸ÄÎªÍâ²¿ÏÔÊ¾Ãû³Æ£¬½«eDP-1-1¸ü¸ÄÎªÄÚÖÃÏÔÊ¾Ãû³Æ¡£ÏÔÊ¾Á½¸öÒÔÉÏ£¬Á´½ÓÔÚ [ÕâÀï](http://www.mikewootc.com/wiki/linux/usage/set_x_reso.html).<br/>***Notice***: ½ø³ÌĞİÃß5Ê±£¬±ØĞë½«µÇÂ¼¶Ô»°¿òÍÏµ½ÄÚÖÃÏÔÊ¾¶Ë£¬·ñÔòÊÓÍ¼¿ÉÄÜ¿¨ÔÚÍâ²¿ÏÔÊ¾ÖĞ. 
+å°†HDMI-1-2æ›´æ”¹ä¸ºå¤–éƒ¨æ˜¾ç¤ºåç§°ï¼Œå°†eDP-1-1æ›´æ”¹ä¸ºå†…ç½®æ˜¾ç¤ºåç§°ã€‚æ˜¾ç¤ºä¸¤ä¸ªä»¥ä¸Šï¼Œé“¾æ¥åœ¨ [è¿™é‡Œ](http://www.mikewootc.com/wiki/linux/usage/set_x_reso.html).<br/>***Notice***: è¿›ç¨‹ä¼‘çœ 5æ—¶ï¼Œå¿…é¡»å°†ç™»å½•å¯¹è¯æ¡†æ‹–åˆ°å†…ç½®æ˜¾ç¤ºç«¯ï¼Œå¦åˆ™è§†å›¾å¯èƒ½å¡åœ¨å¤–éƒ¨æ˜¾ç¤ºä¸­. 
 
-## Á´½Ó
+## é“¾æ¥
 
-- [Ê¹ÓÃX11ForwardÊ±ÊäÈë·¨²»Æğ×÷ÓÃ](https://ubuntuforums.org/showthread.php?t=913752)
-- [ÓëÊäÈë·½·¨Ïà¹ØµÄ»·¾³±äÁ¿](https://fcitx-im.org/wiki/Input_method_related_environment_variables)
-- [Docker GUI×î¼ÑÊµ¼ù](https://github.com/zjZSTU/Containerization-Automation/blob/982d54458b05ef75fe6436f4ea72bbb66c4cb931/docs/docker/gui/%5BDocker%5DGUI×î¼ÑÊµ¼ù.md)
-- [Linux ÏÂ ÍêÃÀÔËĞĞ wechat Î¢ĞÅ](https://www.kpromise.top/run-wechat-in-linux/)
-- [WeChat Linux×ÀÃæ°æ](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux)
+- [ä½¿ç”¨X11Forwardæ—¶è¾“å…¥æ³•ä¸èµ·ä½œç”¨](https://ubuntuforums.org/showthread.php?t=913752)
+- [ä¸è¾“å…¥æ–¹æ³•ç›¸å…³çš„ç¯å¢ƒå˜é‡](https://fcitx-im.org/wiki/Input_method_related_environment_variables)
+- [Docker GUIæœ€ä½³å®è·µ](https://github.com/zjZSTU/Containerization-Automation/blob/982d54458b05ef75fe6436f4ea72bbb66c4cb931/docs/docker/gui/%5BDocker%5DGUIæœ€ä½³å®è·µ.md)
+- [Linux ä¸‹ å®Œç¾è¿è¡Œ wechat å¾®ä¿¡](https://www.kpromise.top/run-wechat-in-linux/)
+- [WeChat Linuxæ¡Œé¢ç‰ˆ](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux)
 
-## ÀúÊ·
+## å†å²
 
-### °æ±¾
+### ç‰ˆæœ¬
 
-### v0.10 (2020Äê3ÔÂ12ÈÕ)
+### v0.10 (2020å¹´3æœˆ12æ—¥)
 
-1. ½«wine´Óv4.0Éı¼¶µ½v5.0
-1. Í¨¹ı´øÓĞ×Ô¶¯Î¢ĞÅ°æ±¾ºÅµÄGitHub²Ù×÷²¿Êğµ½Docker Hub.
+1. å°†wineä»v4.0å‡çº§åˆ°v5.0
+1. é€šè¿‡å¸¦æœ‰è‡ªåŠ¨å¾®ä¿¡ç‰ˆæœ¬å·çš„GitHubæ“ä½œéƒ¨ç½²åˆ°Docker Hub.
 
-### v0.8 (2020Äê3ÔÂ3ÈÕ)
+### v0.8 (2020å¹´3æœˆ3æ—¥)
 
-1. Ìí¼ÓĞÂµÄÅäÖÃ»·¾³±äÁ¿¡°DOCHAT_WECHAT_VERSION¡±ÒÔÑ¡ÔñÎ¢ĞÅ°æ±¾¡£
-1. Ìí¼Ó Î¢ĞÅ v2.8.0.112
-    1. ĞÂÔö¶©ÔÄºÅä¯ÀÀ
-    1. ĞÂÔöIPv6ÍøÂçÖ§³Ö
-    1. ĞÂÔö¿´Ò»¿´¾«Ñ¡ÄÚÈİ
-    1. ĞÂÔö´ò¿ªÁÄÌìÖĞĞ¡³ÌĞòÏûÏ¢
-    1. ĞÂÔöÔÚĞ¡³ÌĞòÖĞÊ¹ÓÃÎ¢ĞÅÖ§¸¶
-    1. ĞÂÔöÁÄÌìÎÄ¼şÃæ°å£¬¿É²é¿´ºÍ¹ÜÀíËùÓĞÁÄÌìÎÄ¼ş
+1. æ·»åŠ æ–°çš„é…ç½®ç¯å¢ƒå˜é‡â€œDOCHAT_WECHAT_VERSIONâ€ä»¥é€‰æ‹©å¾®ä¿¡ç‰ˆæœ¬ã€‚
+1. æ·»åŠ  å¾®ä¿¡ v2.8.0.112
+    1. æ–°å¢è®¢é˜…å·æµè§ˆ
+    1. æ–°å¢IPv6ç½‘ç»œæ”¯æŒ
+    1. æ–°å¢çœ‹ä¸€çœ‹ç²¾é€‰å†…å®¹
+    1. æ–°å¢æ‰“å¼€èŠå¤©ä¸­å°ç¨‹åºæ¶ˆæ¯
+    1. æ–°å¢åœ¨å°ç¨‹åºä¸­ä½¿ç”¨å¾®ä¿¡æ”¯ä»˜
+    1. æ–°å¢èŠå¤©æ–‡ä»¶é¢æ¿ï¼Œå¯æŸ¥çœ‹å’Œç®¡ç†æ‰€æœ‰èŠå¤©æ–‡ä»¶
 
 ```sh
 curl -sL https://raw.githubusercontent.com/huan/docker-wechat/master/dochat.sh \
   | DOCHAT_WECHAT_VERSION=2.8.0.112 bash
 ```
 
-### v0.5 (2020Äê2ÔÂ24ÈÕ)
+### v0.5 (2020å¹´2æœˆ24æ—¥)
 
-1. Ìí¼Ó»·¾³±äÁ¿¡°DOCHAT_DPI¡±ÒÔÉèÖÃÍ¼ĞÎÆÁÄ»·Ö±æÂÊµÄDPI±ÈÀı¡£
-1. ½ûÓÃ×Ô¶¯¸üĞÂ.
+1. æ·»åŠ ç¯å¢ƒå˜é‡â€œDOCHAT_DPIâ€ä»¥è®¾ç½®å›¾å½¢å±å¹•åˆ†è¾¨ç‡çš„DPIæ¯”ä¾‹ã€‚
+1. ç¦ç”¨è‡ªåŠ¨æ›´æ–°.
 
-### v0.4 (2020Äê2ÔÂ21ÈÕ)
+### v0.4 (2020å¹´2æœˆ21æ—¥)
 
-´ÓÎÒµÄÒÕÊõÅóÓÑËÎÈôĞÀÄÇÀïµÃµ½ÁËÒ»¸öºÜ°ôµÄ±êÖ¾¡£.
+ä»æˆ‘çš„è‰ºæœ¯æœ‹å‹å®‹è‹¥æ¬£é‚£é‡Œå¾—åˆ°äº†ä¸€ä¸ªå¾ˆæ£’çš„æ ‡å¿—ã€‚.
 
-1. ĞŞ¸´ÉùÒô ([#1](https://github.com/huan/docker-wechat/issues/1))
-1. ĞŞ¸´Éı¼¶¹ı³ÌÖĞ²»ÍË³öµÄÎÊÌâ.
+1. ä¿®å¤å£°éŸ³ ([#1](https://github.com/huan/docker-wechat/issues/1))
+1. ä¿®å¤å‡çº§è¿‡ç¨‹ä¸­ä¸é€€å‡ºçš„é—®é¢˜.
 
-### v0.2 (2020Äê2ÔÂ18ÈÕ)
+### v0.2 (2020å¹´2æœˆ18æ—¥)
 
-µÚÒ»¸ö¹¤×÷°æ±¾£¬¸É±­£¡
+ç¬¬ä¸€ä¸ªå·¥ä½œç‰ˆæœ¬ï¼Œå¹²æ¯ï¼
 
-### v0.1 (2020Äê2ÔÂ17ÈÕ)
+### v0.1 (2020å¹´2æœˆ17æ—¥)
 
-ÏîÄ¿´´½¨¡£
+é¡¹ç›®åˆ›å»ºã€‚
 
-## ¸ĞĞ»
+## æ„Ÿè°¢
 
-1. [Î¢ĞÅLinux×ÀÃæ°æ](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux) - by [@ferrolho](https://github.com/ferrolho)
-1. [Wine HQ Ó¦ÓÃÊı¾İ¿â-Î¢ĞÅ](https://appdb.winehq.org/objectManager.php?sClass=application&iId=16931)
-1. [»ùÓÚÉî¶È²Ù×÷ÏµÍ³µÄÎ¢ĞÅ docker ¾µÏñ](https://github.com/bestwu/docker-wechat) by [@bestwu](https://github.com/bestwu)
-1. ÓÉÎÒµÄÅóÓÑËÎÈôÜ°Éè¼ÆµÄDoChat±êÖ¾¡£
+1. [å¾®ä¿¡Linuxæ¡Œé¢ç‰ˆ](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux) - by [@ferrolho](https://github.com/ferrolho)
+1. [Wine HQ åº”ç”¨æ•°æ®åº“-å¾®ä¿¡](https://appdb.winehq.org/objectManager.php?sClass=application&iId=16931)
+1. [åŸºäºæ·±åº¦æ“ä½œç³»ç»Ÿçš„å¾®ä¿¡ docker é•œåƒ](https://github.com/bestwu/docker-wechat) by [@bestwu](https://github.com/bestwu)
+1. ç”±æˆ‘çš„æœ‹å‹å®‹è‹¥é¦¨è®¾è®¡çš„DoChatæ ‡å¿—ã€‚
 
-## Ïà¹ØÏîÄ¿
+## ç›¸å…³é¡¹ç›®
 
-1. [DoWork /d¨»¨»?w??k/ ºĞ×°ÆóÒµÎ¢ĞÅ](https://github.com/huan/docker-wxwork): Dockerized WeChat Work (ÆóÒµÎ¢ĞÅ) PC Windows Client for Linux
+1. [DoWork /dÉ‘É‘?w??k/ ç›’è£…ä¼ä¸šå¾®ä¿¡](https://github.com/huan/docker-wxwork): Dockerized WeChat Work (ä¼ä¸šå¾®ä¿¡) PC Windows Client for Linux
 
-## ×÷Õß
+## ä½œè€…
 
-[Huan LI](https://github.com/huan) ([Àî×¿»¸](http://linkedin.com/in/zixia)) Tencent TVP of Chatbot zixia@zixia.net
+[Huan LI](https://github.com/huan) ([æå“æ¡“](http://linkedin.com/in/zixia)) Tencent TVP of Chatbot zixia@zixia.net
 
-[![Profile of Huan LI (Àî×¿»¸) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
+[![Profile of Huan LI (æå“æ¡“) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
 
-## °æÈ¨ & Ğí¿ÉÖ¤
+## ç‰ˆæƒ & è®¸å¯è¯
 
-- Code & Docs ? 2020-now Huan LI \<zixia@zixia.net\>
+- Code & Docs Â© 2020-now Huan LI \<zixia@zixia.net\>
 - Code released under the Apache-2.0 License
 - Docs released under Creative Commons
