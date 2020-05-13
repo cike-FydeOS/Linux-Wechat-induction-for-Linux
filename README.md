@@ -172,3 +172,15 @@ brew cask install electronic-wechat
 #### License [MIT](LICENSE.md)
 
 *Electronic WeChat* is released by this open source project. While Web WeChat is a major component  in the app, it should be noted that this is a community release and not an official WeChat release.
+
+
+# DoChat（Linux版微信整理<2>）
+
+## 本地入口：
+
+1.[English](https://github.com/cike-FydeOS/Linux-Wechat-induction-for-Linux/tree/master/DoChat)
+2.[中文(简体)](https://github.com/cike-FydeOS/Linux-Wechat-induction-for-Linux/tree/master/DoChat/README_zh.md)
+
+## 原网站入口：
+
+[English](https://github.com/huan/docker-wechat)
