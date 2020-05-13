@@ -1,69 +1,16 @@
 # 自由仓库1（Free warehouse 1）【Linux 版微信归纳（Wechat induction for Linux）
-<<<<<<< HEAD
-**目前正在整理**，更新可能有点慢。有想维护或提交自己的作品的可以在这里添加自己的作品或维护。
-Currently, it is being sorted out. The update may be a little slow. If you want to maintain or submit your own works, you can add your own works or maintain them here.
-=======
 >***目前正在整理，更新可能有点慢。有想维护或提交自己的作品的可以在这里添加自己的作品或维护。
 Currently, it is being sorted out. The update may be a little slow. If you want to maintain or submit your own works, you can add your own works or maintain them here.***
->>>>>>> aaeadecd9c22ff1e8bf1ab0dee833f2404f2ba80
 <img src="assets/icon.png" alt="logo" height="120" align="right" />
 
 # Electronic WeChat(linux 版微信<1>说明中文)
-**注：**以下内容均来自原网站https://github.com/geeeeeeeeek/electronic-wechat
-
-[English](https://github.com/cike-FydeOS/-1-Free-warehouse-1-Linux-Wechat-induction-for-Linux-/blob/master/Electronic%20WeChat/README_zh.md)
-
-*A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
-
-> **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️**
->
-> Thanks for supporting this project for **1000** days since Feb 16, 2016.
->
-> It started with the idea to make WeChat better on MacOS when the official support was abscent. It was de facto dead when Tencent rolled out a new WeChat and started to block other third-party clients. For me, it's no longer worthwhile to hack a lot to accomplish little. Hope this project had been helpful to you in any way. You're welcome to **fork** or make copies with a reference. HAPPY HACKING.
->
-> 感谢历史上的用户和贡献者，你们已经陪伴这个项目走过了 **1000** 个日子。我曾经想要打造一个更好的 Mac 微信客户端，因为官方版本几年没有更新、bug 层出。而在腾讯自己开始了定期更新并限制第三方客户端时，这个项目实际已经没有什么意义。这个项目目前作为一个存档供大家学习。希望它曾经对你有所帮助，你也可以 **fork** 或者转载（标注来源）来进行修改。祝你玩得愉快。
->
-> **SPECIAL THANKS TO | 特别感谢**
->
-> [Kulbear](https://github.com/Kulbear),
-> [arrowrowe](https://github.com/arrowrowe),
-> [Rocka](https://github.com/rocka),
-> [CC](https://github.com/iamcc),
-> [xgdgsc](https://github.com/xgdgsc),
-> [死水微澜](https://github.com/ripples-alive),
-> [Jason](https://github.com/gzzhanghao),
-> [Ce Gao](https://github.com/gaocegege),
-> [viko16](https://github.com/viko16),
-> [卡晨](https://github.com/awmleer),
-> [Ray](https://github.com/ray26),
-> [尹良灿](https://github.com/wenLiangcan),
-> [gehuangyi20](https://github.com/gehuangyi20),
-> [Kevin Tan](https://github.com/stkevintan),
-> [Jiaye Wu](https://github.com/wujysh),
-> [loufq](https://github.com/loufq),
-> [Miaow](https://github.com/miaowing),
-> [Chuan Ji](https://github.com/jichu4n),
-> [Oaker](https://github.com/cyio),
-> [Fengshuang Li](https://github.com/lfs1102),
-> [Song Li](https://github.com/boltomli),
-> [afon](https://github.com/samurai00),
-> [lional wang](https://github.com/3dseals),
-> [Haochen Tong](https://github.com/hexchain),
-> [Zhuoyun Wei](https://github.com/wzyboy),
-> [rivershang](https://github.com/rivershang),
-> [Ivan Jiang](https://github.com/iplus26),
-> [oBlank](https://github.com/oblank),
-> [Cheng Gu](https://github.com/gucheen),
-> [NullMDR](https://github.com/NullMDR),
-> [ReadmeCritic](https://github.com/ReadmeCritic).
----
-
+**注：** 以下内容均来自原网站https://github.com/geeeeeeeeek/electronic-wechat
 
 [![Gitter](https://badges.gitter.im/geeeeeeeeek/electronic-wechat.svg)](https://gitter.im/geeeeeeeeek/electronic-wechat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)  [![Build Status](https://travis-ci.org/geeeeeeeeek/electronic-wechat.svg?branch=master)](https://travis-ci.org/geeeeeeeeek/electronic-wechat)  [English](README.md)
 
-**Mac OS X 和 Linux 下更好用的微信客户端. 更多功能, 更少bug. 使用[Electron](https://github.com/atom/electron)构建.**
+**Mac OS X 和 Linux 下更好用的微信客户端. 更多功能, 更少bug. 使用[Electron](https://github.com/atom/electron)构建.** 
 
-**Important:** 如果你希望在自己的电脑上构建 Electronic WeChat，请使用 [production branch](https://github.com/geeeeeeeeek/electronic-wechat/tree/production)，master branch 包含正在开发的部分，并且不能保证是稳定的版本——尽管 production 版本也有bug ：D
+**Important:** 如果你希望在自己的电脑上构建 Electronic WeChat，请使用 [production branch](https://github.com/geeeeeeeeek/electronic-wechat/tree/production)，master branch 包含正在开发的部分，并且不能保证是稳定的版本——尽管 production 版本也有bug ：D 
 
 ![qq20160428-0 2x](https://cloud.githubusercontent.com/assets/7262715/14876747/ff691ade-0d49-11e6-8435-cb1fac91b3c2.png)
 
@@ -126,46 +73,46 @@ brew cask install electronic-wechat
 
 *A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
 
-> **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️**
->
-> Thanks for supporting this project for **1000** days since Feb 16, 2016.
->
+> **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️** 
+> 
+> Thanks for supporting this project for **1000** days since Feb 16, 2016. 
+> 
 > It started with the idea to make WeChat better on MacOS when the official support was abscent. It was de facto dead when Tencent rolled out a new WeChat and started to block other third-party clients. For me, it's no longer worthwhile to hack a lot to accomplish little. Hope this project had been helpful to you in any way. You're welcome to fork or make copies with a reference. HAPPY HACKING.
 >
 > 感谢历史上的用户和贡献者，你们已经陪伴这个项目走过了 **1000** 个日子。我曾经想要打造一个更好的 Mac 微信客户端，因为官方版本几年没有更新、bug 层出。而在腾讯自己开始了定期更新并限制第三方客户端时，这个项目实际已经没有什么意义。这个项目目前作为一个存档供大家学习。希望它曾经对你有所帮助，你也可以 fork 或者转载（标注来源）来进行修改。祝你玩得愉快。
 >
 > **SPECIAL THANKS TO | 特别感谢**
->
-> [Kulbear](https://github.com/Kulbear),
-> [arrowrowe](https://github.com/arrowrowe),
-> [Rocka](https://github.com/rocka),
-> [CC](https://github.com/iamcc),
-> [xgdgsc](https://github.com/xgdgsc),
-> [死水微澜](https://github.com/ripples-alive),
-> [Jason](https://github.com/gzzhanghao),
-> [Ce Gao](https://github.com/gaocegege),
-> [viko16](https://github.com/viko16),
-> [卡晨](https://github.com/awmleer),
-> [Ray](https://github.com/ray26),
-> [尹良灿](https://github.com/wenLiangcan),
-> [gehuangyi20](https://github.com/gehuangyi20),
-> [Kevin Tan](https://github.com/stkevintan),
-> [Jiaye Wu](https://github.com/wujysh),
-> [loufq](https://github.com/loufq),
-> [Miaow](https://github.com/miaowing),
-> [Chuan Ji](https://github.com/jichu4n),
-> [Oaker](https://github.com/cyio),
-> [Fengshuang Li](https://github.com/lfs1102),
-> [Song Li](https://github.com/boltomli),
-> [afon](https://github.com/samurai00),
-> [lional wang](https://github.com/3dseals),
-> [Haochen Tong](https://github.com/hexchain),
-> [Zhuoyun Wei](https://github.com/wzyboy),
-> [rivershang](https://github.com/rivershang),
-> [Ivan Jiang](https://github.com/iplus26),
-> [oBlank](https://github.com/oblank),
-> [Cheng Gu](https://github.com/gucheen),
-> [NullMDR](https://github.com/NullMDR),
+> 
+> [Kulbear](https://github.com/Kulbear), 
+> [arrowrowe](https://github.com/arrowrowe), 
+> [Rocka](https://github.com/rocka), 
+> [CC](https://github.com/iamcc), 
+> [xgdgsc](https://github.com/xgdgsc), 
+> [死水微澜](https://github.com/ripples-alive), 
+> [Jason](https://github.com/gzzhanghao), 
+> [Ce Gao](https://github.com/gaocegege), 
+> [viko16](https://github.com/viko16), 
+> [卡晨](https://github.com/awmleer), 
+> [Ray](https://github.com/ray26), 
+> [尹良灿](https://github.com/wenLiangcan), 
+> [gehuangyi20](https://github.com/gehuangyi20), 
+> [Kevin Tan](https://github.com/stkevintan), 
+> [Jiaye Wu](https://github.com/wujysh), 
+> [loufq](https://github.com/loufq), 
+> [Miaow](https://github.com/miaowing), 
+> [Chuan Ji](https://github.com/jichu4n), 
+> [Oaker](https://github.com/cyio), 
+> [Fengshuang Li](https://github.com/lfs1102), 
+> [Song Li](https://github.com/boltomli), 
+> [afon](https://github.com/samurai00), 
+> [lional wang](https://github.com/3dseals), 
+> [Haochen Tong](https://github.com/hexchain), 
+> [Zhuoyun Wei](https://github.com/wzyboy), 
+> [rivershang](https://github.com/rivershang), 
+> [Ivan Jiang](https://github.com/iplus26), 
+> [oBlank](https://github.com/oblank), 
+> [Cheng Gu](https://github.com/gucheen), 
+> [NullMDR](https://github.com/NullMDR), 
 > [ReadmeCritic](https://github.com/ReadmeCritic).
 ---
 
